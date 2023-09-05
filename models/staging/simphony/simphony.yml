@@ -1,0 +1,16 @@
+models:
+  - name: stg_simphony_cmi
+    columns:
+      - name: check_number
+        description : check_number used to settle transaction. The check numbers are unique for each business date, store
+      - name: business_date
+        description : The actual business date for the check
+      - name: transaction_date
+        description: This is the actual transaction time maintained at service round level for each check
+      - name: menu_item_number
+        description: Item code for the item being ordered.
+      - name: menu_item_name
+        description: Item name
+      - name: major_group_name
+        description: Group in which menu item is a part of. 
+
