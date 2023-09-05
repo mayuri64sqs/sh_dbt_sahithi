@@ -87,7 +87,6 @@ select check_number
             'generic_key'
             , business_date
             , check_number
-            , menu_item_number
             , store_number
         )
     ) as generic_key

@@ -22,10 +22,9 @@ select guest_check_number as check_number
             'generic_key'
             , business_date
             , check_number
-            , menu_item_number
             , store_number
         )
-    )
+    ) as generic_key
 from sh_dev.stage_simphony.csvc 
 where 
     1=1
