@@ -1,0 +1,6 @@
+sources:
+  - name: dbt_public
+    database: sh_dev
+    schema: dbt_public
+    tables:
+      - name: location_master
