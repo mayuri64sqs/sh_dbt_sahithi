@@ -1,0 +1,12 @@
+sources:
+  - name: stage_simphony
+    database: sh_dev
+    schema: stage_simphony
+    tables:
+      - name: chdr
+      - name: cmi
+      - name: mnpr
+      - name: glid
+      - name: csvc
+      - name: ctax
+      - name: cdsc
